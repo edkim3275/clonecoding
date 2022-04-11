@@ -1,0 +1,61 @@
+$main_color: #115bab;
+
+.section {
+  background-color: #f7f7f9;
+  .section-container {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 50px;
+    .section-title {
+      font-size: 24px;
+      color: $main_color;
+      padding-bottom: 12px;
+      border-bottom: 2px solid $main_color;
+      line-height: 28px;
+      font-weight: bold;
+      font: 12px/1.5;
+      margin-bottom: 35px;
+    }
+    .section-explanation {
+      font-size: 17px;
+      font-weight: 600;
+      color: #44484f;
+      line-height: 1.7em;
+      margin-bottom: 40px;
+    }
+    .article-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1b1d21;
+    }
+    .article-container {
+      width: 1280px;
+      padding: 30px;
+      margin: 15px 0px 70px;
+      background-color: #efeff3;
+      color: #6e7179;
+
+      p {
+        margin-bottom: 30px;
+        line-height: 1.5em;
+      }
+
+      h4 {
+        margin-bottom: 5px;
+        font-size: 17px;
+        font-weight: 600;
+        color: #115bab;
+      }
+
+      li {
+        position: relative;
+        background: url(http://www.samsunghospital.com/_newhome/ui/_component/static/img/ico/bul_list.gif) no-repeat 0 10px;
+        margin: 3px 0;
+        padding: 0 0 0 12px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.5px;
+      }
+    }
+  }
+}
