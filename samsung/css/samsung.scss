@@ -2,6 +2,8 @@ $main_color: #115bab;
 
 .section {
   background-color: #f7f7f9;
+  letter-spacing: -1.0px;
+  padding-bottom: 90px;
   .section-container {
     width: 1280px;
     margin: 0 auto;
@@ -13,49 +15,222 @@ $main_color: #115bab;
       border-bottom: 2px solid $main_color;
       line-height: 28px;
       font-weight: bold;
-      font: 12px/1.5;
       margin-bottom: 35px;
     }
     .section-explanation {
       font-size: 17px;
-      font-weight: 600;
+      font-weight: 500;
       color: #44484f;
       line-height: 1.7em;
       margin-bottom: 40px;
+      letter-spacing: -1.9px;
     }
-    .article-title {
-      font-size: 24px;
-      font-weight: bold;
-      color: #1b1d21;
+  }
+}
+.article-title {
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1b1d21;
+}
+.article-container {
+  max-width: 1280px;
+  padding: 30px;
+  margin-top: 15px;
+  background-color: #efeff3;
+  color: #6e7179;
+  
+  p {
+    // font-size: 16px;
+    // margin-bottom: 30px;
+    // line-height: 1.5em;
+  }
+
+  h4 {
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #115bab;
+  }
+
+  li {
+    position: relative;
+    background: url(http://www.samsunghospital.com/_newhome/ui/_component/static/img/ico/bul_list.gif) no-repeat 0 10px;
+    margin: 3px 0;
+    padding: 0 0 0 12px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -1.5px;
+  }
+}
+.article-explanation {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5em;
+  letter-spacing: -1.5px;
+}
+.article-sup-explanation {
+  color: #3378c1;
+}
+.list-container {
+  margin-bottom: 25px;
+}
+.line-bt-gray {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #dadada;
+}
+.back-to-top {
+  position: absolute;
+  z-index: 101;
+  right: 20px;
+  width: 33px;
+  height: 33px;
+  background: #ffffff url(http://www.samsunghospital.com/_newhome/ui/_component/static/img/btn/back_to_top.png) 8px 8px no-repeat;
+  border: 1px solid #efeff1;
+  border-radius: 100%;
+  box-sizing: border-box;
+  bottom: 20px;
+  position: fixed;
+}
+.back-to-top:hover {
+  background-color: #6e7179;
+  opacity: 0.2;
+}
+
+
+footer {
+  width: 100vw;
+  height: 200px;
+  background-color: #595f6a;
+}
+.footer-container {
+  margin: 0 auto;
+  margin-left: auto;
+  background-color: #595f6a;
+  width: 1280px;
+  // height: 200px;
+  // padding: 0px 60px;
+  letter-spacing: -1px;
+}
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #515762;
+}
+.link-list {
+  padding-top: 25px;
+  letter-spacing: -1px;
+  a {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 0px 15px 0 0;
+  }
+  a:hover {
+    color: #7498dc;
+    text-decoration: underline;
+  }
+  a + a::before {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 11px;
+    background-color: #7c7e82;
+    margin-right: 15px;
+  }
+}
+.link-btn-list {
+  letter-spacing: -1px;
+}
+.link-btn {
+  // background: inherit ; 
+  cursor:pointer;
+  border: none; 
+  box-shadow: none; 
+  border-radius:0;
+  padding:0;
+  overflow: visible; 
+  // background-color: transparent;
+  width: 164.29px;
+  height: 57px;
+  color: #ffffff;
+  background: url(http://www.samsunghospital.com/_newhome/ui/home/static/img/main/main_sprite.png) 30px -1271px no-repeat;
+}
+.link-btn:hover {
+  background-color: #464c58;
+}
+.footer-sup-link {
+  display: flex;
+  justify-content: space-between;
+  p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #b0b4bb;
+  }
+}
+.sup-link-list {
+  padding: 25px 0px 13px 0px;
+  letter-spacing: -1px;
+  .linked-color {
+    color: #7498dc;
+    text-decoration: none;
+  }
+  a {
+    font-size: 13px;
+    color: #ffffff;
+    padding: 0px 15px 0 0;
+    .expand {
+      background: url(http://www.samsunghospital.com/_newhome/ui/cancer/static/img/footer/sprite.footer.png) 100% 6px no-repeat;
     }
-    .article-container {
-      width: 1280px;
-      padding: 30px;
-      margin: 15px 0px 70px;
-      background-color: #efeff3;
-      color: #6e7179;
+  }
+  a:hover {
+    color: #7498dc;
+    text-decoration: underline;
+  }
+  a + a::before {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 11px;
+    background-color: #7c7e82;
+    margin-right: 15px;
+  }
+}
+.isms {
+  padding-top: 25px;
+  .isms-logo {
+    display: block;
+    width: 222px;
+    height: 37px;
+    margin-bottom: 15px;
+    background: url(http://www.samsunghospital.com/_newhome/ui/_component/static/img/ico/pc_isms_authnew.png) no-repeat 0 0;
+  }
+}
 
-      p {
-        margin-bottom: 30px;
-        line-height: 1.5em;
-      }
-
-      h4 {
-        margin-bottom: 5px;
-        font-size: 17px;
-        font-weight: 600;
-        color: #115bab;
-      }
-
-      li {
-        position: relative;
-        background: url(http://www.samsunghospital.com/_newhome/ui/_component/static/img/ico/bul_list.gif) no-repeat 0 10px;
-        margin: 3px 0;
-        padding: 0 0 0 12px;
-        font-size: 16px;
-        line-height: 26px;
-        letter-spacing: -0.5px;
-      }
-    }
+.sns {
+  text-align: right;
+  a {
+    display: inline-block;
+    overflow: hidden;
+    width: 23px;
+    height: 23px;
+    margin-left: 17px
+  }
+  .sns-twitter {
+    background: url(http://www.samsunghospital.com/_newhome/ui/cancer/static/img/footer/outer_link.png) 0 0 no-repeat;
+  }
+  .sns-facebook {
+    background: url(http://www.samsunghospital.com/_newhome/ui/cancer/static/img/footer/outer_link.png) -29px 0 no-repeat;
+  }
+  .sns-blog {
+    background: url(http://www.samsunghospital.com/_newhome/ui/cancer/static/img/footer/outer_link.png) -59px 0 no-repeat;
+  }
+  .sns-youtube {
+    background: url(http://www.samsunghospital.com/_newhome/ui/cancer/static/img/footer/outer_link.png) -89px 0 no-repeat;
   }
 }
