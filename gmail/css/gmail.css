@@ -1,0 +1,526 @@
+.header {
+  height: 48px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header .header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 238px;
+}
+.header .header-left .burger-menu {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 4px;
+  padding: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.header .header-left .burger-menu svg {
+  fill: #5f6368;
+}
+.header .header-left .burger-menu:hover {
+  background-color: rgba(160, 160, 160, 0.15);
+}
+.header .header-left .logo-img {
+  height: 40px;
+  cursor: pointer;
+}
+.header .search-bar {
+  border-radius: 8px;
+  background-color: #f1f3f4;
+  width: 100%;
+  max-width: 720px;
+  height: 48px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header .search-bar button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0 5px;
+}
+.header .search-bar button .search-ico {
+  border-radius: 50%;
+  padding: 8px;
+  margin: 3px;
+}
+.header .search-bar button .search-ico:hover {
+  background-color: rgba(160, 160, 160, 0.15);
+}
+.header .search-bar button svg {
+  fill: currentColor;
+  color: #5f6368;
+}
+.header .search-bar button .toolbox-ico {
+  border-radius: 50%;
+  padding: 8px;
+  margin: 3px;
+}
+.header .search-bar button .toolbox-ico:hover {
+  background-color: rgba(160, 160, 160, 0.15);
+}
+.header .search-bar #mail-search {
+  border: none;
+  background: none;
+  font: normal 16px Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+.header .search-bar input {
+  flex: 1;
+}
+.header .search-bar input:focus-visible {
+  outline: none;
+}
+.header .header-right {
+  margin-left: auto;
+}
+.header .header-right button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+.header .header-right button svg {
+  fill: currentColor;
+  color: #5f6368;
+}
+.header .header-right button .help-ico {
+  border-radius: 50%;
+  padding: 8px;
+  margin: 3px 0;
+}
+.header .header-right button .help-ico:hover {
+  background-color: rgba(160, 160, 160, 0.15);
+}
+.header .header-right button .setting-ico {
+  border-radius: 50%;
+  padding: 8px;
+  margin: 3px 0;
+}
+.header .header-right button .setting-ico:hover {
+  background-color: rgba(160, 160, 160, 0.15);
+}
+.header .header-right button .menu-ico {
+  border-radius: 50%;
+  padding: 8px;
+  margin: 3px 0;
+}
+.header .header-right button .menu-ico:hover {
+  background-color: rgba(160, 160, 160, 0.15);
+}
+.header .header-right button .profile-ico {
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 9px;
+}
+.header .header-right button .profile-ico img {
+  border: 0;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+aside {
+  width: 256px;
+}
+aside .aside-top {
+  padding-left: 8px;
+}
+aside .write-btn {
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  display: inline-flex;
+  margin: 16px 0;
+  padding: 0 24px 0 0;
+  min-width: 56px;
+  height: 48px;
+  border-radius: 24px;
+  color: #3c4043;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  align-items: center;
+  cursor: pointer;
+}
+aside .write-btn::before {
+  background-image: url(https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 32px;
+  content: "";
+  display: block;
+  height: 48px;
+  min-width: 56px;
+}
+aside .write-btn:hover {
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+  background-color: #fafafb;
+}
+aside .aside-mid1 {
+  width: 100%;
+  overflow: hidden;
+}
+aside .aside-mid1 .mid1-li {
+  border-radius: 0 16px 16px 0;
+  box-sizing: border-box;
+  margin-right: 16px;
+}
+aside .aside-mid1 .mid1-li .li {
+  height: 32px;
+  padding: 0 12px 0 26px;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+aside .aside-mid1 .mid1-li .li .ico {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 18px;
+}
+aside .aside-mid1 .mid1-li .li .receive-ico {
+  background-image: url(https://www.gstatic.com/images/icons/material/system/1x/inbox_gm_googlered600_20dp.png);
+}
+aside .aside-mid1 .mid1-li .li .star-ico {
+  background-image: url(https://www.gstatic.com/images/icons/material/system/1x/grade_black_20dp.png);
+  filter: opacity(0.5) drop-shadow(0 0 0 lightgrey);
+}
+aside .aside-mid1 .mid1-li .li .alarm-ico {
+  background-image: url(https://www.gstatic.com/images/icons/material/system/1x/watch_later_black_20dp.png);
+  filter: opacity(0.5) drop-shadow(0 0 0 lightgrey);
+}
+aside .aside-mid1 .mid1-li .li .sent-ico {
+  background-image: url(https://www.gstatic.com/images/icons/material/system/1x/send_black_20dp.png);
+  filter: opacity(0.5) drop-shadow(0 0 0 lightgrey);
+}
+aside .aside-mid1 .mid1-li .li .tmp-store-ico {
+  background-image: url(https://www.gstatic.com/images/icons/material/system/1x/insert_drive_file_black_20dp.png);
+  filter: opacity(0.5) drop-shadow(0 0 0 lightgrey);
+}
+aside .aside-mid1 .mid1-li .li .more-ico {
+  background-image: url(https://www.gstatic.com/images/icons/material/system/1x/expand_more_black_20dp.png);
+  filter: opacity(0.5) drop-shadow(0 0 0 lightgrey);
+}
+aside .aside-mid1 .mid1-li .li .li-text {
+  margin-right: auto;
+}
+aside .aside-mid1 .mid1-li .li .li-num {
+  margin-left: auto;
+  font-size: 0.75rem;
+  letter-spacing: 0.3px;
+}
+aside .aside-mid1 .mid1-li:hover {
+  background-color: rgba(160, 160, 160, 0.15);
+}
+aside .aside-mid1 .selected {
+  background-color: #fce8e6;
+  font-weight: bold;
+  color: #d93025;
+}
+aside .aside-mid1 .selected:hover {
+  background-color: #fce8e6;
+}
+aside .aside-mid2 {
+  width: 100%;
+  border-top: 1px solid lightgrey;
+  box-shadow: inset 0 -1px 0 0 rgba(100, 121, 143, 0.12);
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+aside .aside-mid2 .mid1-li {
+  border-radius: 0 16px 16px 0;
+  box-sizing: border-box;
+  margin-right: 16px;
+}
+aside .aside-mid2 .mid1-li .li-no-cursor {
+  height: 32px;
+  padding: 0 12px 0 26px;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+}
+aside .aside-mid2 .mid1-li .li {
+  height: 32px;
+  padding: 0 12px 0 26px;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+aside .aside-mid2 .mid1-li .li .ico {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 18px;
+}
+aside .aside-mid2 .mid1-li .li .meeting-ico {
+  background-image: url(https://www.gstatic.com/images/icons/material/system/1x/videocam_black_20dp.png);
+  filter: opacity(0.5) drop-shadow(0 0 0 lightgrey);
+}
+aside .aside-mid2 .mid1-li .li .join-ico {
+  background-image: url(https://www.gstatic.com/images/icons/material/system/1x/keyboard_black_20dp.png);
+  filter: opacity(0.5) drop-shadow(0 0 0 lightgrey);
+}
+aside .aside-mid2 .mid1-li .li .li-text {
+  margin-right: auto;
+}
+aside .aside-mid2 .mid1-li .li .li-num {
+  margin-left: auto;
+  font-size: 0.75rem;
+  letter-spacing: 0.3px;
+}
+aside .aside-mid2 .mid1-li:hover {
+  background-color: rgba(160, 160, 160, 0.15);
+}
+aside .aside-mid2 .no-bg-color:hover {
+  background-color: transparent;
+}
+aside .aside-mid3 {
+  width: 100%;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+aside .aside-mid3 .mid1-li {
+  border-radius: 0 16px 16px 0;
+  box-sizing: border-box;
+  margin-right: 16px;
+}
+aside .aside-mid3 .mid1-li .li-no-cursor {
+  height: 32px;
+  padding: 0 12px 0 26px;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+}
+aside .aside-mid3 .mid1-li .li {
+  height: 32px;
+  padding: 0 12px 0 26px;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+aside .aside-mid3 .mid1-li .li .li-text {
+  margin-right: auto;
+}
+aside .aside-mid3 .mid1-li .li .li-num {
+  margin-left: auto;
+  font-size: 0.75rem;
+  letter-spacing: 0.3px;
+}
+aside .aside-mid3 .mid3-li {
+  box-sizing: border-box;
+  margin-right: 16px;
+  margin-left: 26px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e5e5e5;
+}
+aside .aside-mid3 .mid3-li .li {
+  height: 32px;
+  padding: 0 12px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  letter-spacing: 0.2px;
+}
+aside .aside-mid3 .mid3-li .li .plus-ico {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: none;
+  border-radius: 50%;
+}
+aside .aside-mid3 .mid3-li .li .plus-ico svg {
+  fill: currentColor;
+  color: #5f6368;
+}
+aside .aside-mid3 .mid3-li .li .plus-ico:hover {
+  background-color: rgba(160, 160, 160, 0.15);
+}
+aside .aside-mid3 .mid3-li button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+aside .aside-mid3 .mid3-li button .profile-ico {
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+aside .aside-mid3 .mid3-li button .profile-ico img {
+  border: 0;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+}
+aside .aside-mid3 .mid3-li button .login-ico {
+  position: relative;
+  display: inline-block;
+  background-color: #35ac19;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  bottom: -14px;
+  right: 12px;
+}
+aside .aside-mid3 .mid3-li button .li-text {
+  display: inline;
+}
+aside .aside-mid3 .mid3-li button .arrow-ico {
+  display: inline-block;
+  background: no-repeat url(https://ssl.gstatic.com/chat/babble/sprites/common-517bca7f07a37c64c3263a1411e266a5.png) -449px -149px;
+  width: 7px;
+  height: 4px;
+  float: none;
+  position: static;
+  vertical-align: middle;
+}
+aside .aside-mid3 .no-cursor {
+  background-color: none;
+  cursor: none;
+}
+aside .aside-mid3 .mid1-li:hover {
+  background-color: rgba(160, 160, 160, 0.15);
+}
+aside .aside-mid3 .no-bg-color:hover {
+  background-color: transparent;
+}
+aside .aside-mid3 .chat-container {
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5em;
+}
+aside .aside-mid3 .chat-container .chat-ico {
+  margin: 8px auto 20px;
+  background: no-repeat url(https://ssl.gstatic.com/chat/babble/sprites/common-517bca7f07a37c64c3263a1411e266a5.png) -649px -108px;
+  width: 72px;
+  height: 72px;
+}
+aside .aside-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 0;
+  padding: 0;
+  width: 256px;
+  height: 32px;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+aside .aside-bottom .ico {
+  display: inline-block;
+  cursor: pointer;
+  height: 17px;
+  padding: 6px 8px 10px;
+}
+aside .aside-bottom .ico .user-ico {
+  background: url(https://ssl.gstatic.com/ui/v1/icons/mail/wbt/contacts_icon21.png) no-repeat;
+  width: 21px;
+  height: 21px;
+  filter: opacity(0.5) drop-shadow(0 0 0 lightgrey);
+}
+aside .aside-bottom .talk-ico {
+  display: inline-block;
+  cursor: pointer;
+  height: 17px;
+  background: url(https://ssl.gstatic.com/mail/sprites/hangouts_black-734a4722bcd0d29f1eba9aaa722c7c76.png) no-repeat 0 -150px;
+  width: 30px;
+  height: 30px;
+}
+aside .aside-bottom .selected {
+  padding: 2px 4px 0 3px;
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  background-color: #ddd;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  width: 1208px;
+  background-color: transparent;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav .ico-container {
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .ico-container .ico {
+  height: 56px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  left: 8px;
+  top: 8px;
+}
+nav .ico-container .calander-ico {
+  background-image: url(https://www.gstatic.com/companion/icon_assets/calendar_2020q4_2x.png);
+}
+nav .ico-container .memo-ico {
+  background-image: url(https://www.gstatic.com/companion/icon_assets/keep_2020q4v3_2x.png);
+}
+nav .ico-container .task-ico {
+  background-image: url(https://www.gstatic.com/companion/icon_assets/tasks_2021_2x.png);
+}
+nav .ico-container .address-book-ico {
+  background-image: url(https://www.gstatic.com/companion/icon_assets/contacts_2x.png);
+}
+nav .ico-container .ico-bg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+nav .ico-container .ico-bg:hover {
+  background-color: rgba(160, 160, 160, 0.15);
+}
+
+/*# sourceMappingURL=gmail.css.map */

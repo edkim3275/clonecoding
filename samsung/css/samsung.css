@@ -237,4 +237,146 @@ footer {
   background: url(http://www.samsunghospital.com/_newhome/ui/cancer/static/img/footer/outer_link.png) -89px 0 no-repeat;
 }
 
+.header-container {
+  background-color: #ffffff;
+  height: 111px;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header-upper {
+  display: flex;
+  justify-content: space-between;
+  height: 66px;
+}
+.header-upper .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-upper .logo img {
+  height: 28px;
+}
+.header-upper .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -100px;
+}
+.header-upper .menu ul {
+  list-style: none;
+}
+.header-upper .menu li {
+  text-decoration: none;
+  display: inline-block;
+}
+.header-upper .menu a {
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 19px;
+  color: #0e0e0e;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.header-upper .menu li a:hover {
+  color: #115bab;
+  border-bottom: 2px solid #115bab;
+}
+
+.tool-box-upper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tool-box-upper .search-bar {
+  /* display: inline-block; */
+  margin-top: 7px;
+  min-width: 30px;
+  height: 30px;
+  background: url(../link.png) 0 0 no-repeat;
+  border: none;
+  cursor: pointer;
+}
+.tool-box-upper .login {
+  padding: 7px 15px 7px 15px;
+  background-color: #ffffff;
+  align-self: center;
+  font-size: 13px;
+  line-height: 15px;
+  color: #999;
+  border: 0.5px solid #999;
+  cursor: pointer;
+}
+.tool-box-upper .login:hover {
+  color: #999;
+}
+
+.header-lower {
+  display: flex;
+  justify-content: space-between;
+  height: 42px;
+  /* background-color: cornflowerblue; */
+}
+.header-lower .sns-facebook {
+  display: inline-block;
+  padding: 3px 8px 0 8px;
+  width: 12px;
+  height: 16px;
+  background: url(../sns.png) no-repeat;
+}
+.header-lower .sns-twitter {
+  display: inline-block;
+  padding: 3px 8px 0 8px;
+  width: 12px;
+  height: 16px;
+  background: url(../sns.png) no-repeat;
+  background-position: -29px 0;
+}
+.header-lower .sns-google {
+  display: inline-block;
+  padding: 3px 8px 0 8px;
+  width: 12px;
+  height: 16px;
+  background: url(../sns.png) no-repeat;
+  background-position: -63px 0;
+}
+.header-lower .sns-print {
+  display: inline-block;
+  padding: 3px 8px 0 8px;
+  width: 12px;
+  height: 16px;
+  background: url(../sns.png) no-repeat;
+  background-position: -160px 0;
+}
+
+.print-tip {
+  display: inline-block;
+  padding: 0 8px;
+  width: 64px;
+  height: 21px;
+  background: url(../sns.png) no-repeat;
+  background-position: 0 -60px;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ico-home {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(../link.png) 0 -162px no-repeat;
+}
+
+.breadcrumbs li {
+  display: inline;
+  padding: 7px 11px 0 0;
+}
+
 /*# sourceMappingURL=samsung.css.map */
